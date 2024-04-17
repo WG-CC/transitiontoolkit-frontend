@@ -3,12 +3,9 @@
 
 # Setup
 
-## 1. Install dependencies
+## 1. Install dependencies 
 
-## 2. Setting up the Database 
-
-## 3. Run the API
-
+## 2. Run development server
 
 # How to Debug your code
 
