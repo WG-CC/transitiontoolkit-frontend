@@ -1,6 +1,11 @@
+import SVGBackButton from "../../assets/images/back-arrow.svg";
+
 const OAuthSignUpOrLogin = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
+      <button className="fixed top-14 left-7">
+        <img src={SVGBackButton} alt="back arrow" />
+      </button>
       <button className="font-bold p-1 w-2/5 bg-slate-300 my-2">
         Sign Up with Twitter
       </button>

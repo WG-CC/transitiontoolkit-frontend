@@ -8,7 +8,7 @@ const AccountChoice = () => {
         <p>アカウントの種類を選択してください</p>
       </h1>
       <div className="flex flex-row h-2/5 w-full justify-around items-center">
-        <button className="flex flex-col justify-around items-center w-1/2 h-4/5 bg-slate-300 p-2 mx-2">
+        <button className="flex flex-col justify-around items-center w-1/2 h-4/5 bg-slate-100 p-2 mx-2">
           <h1 className="text-3xl font-bold tracking-wider">Caregiver</h1>
           <img
             className="w-1/5"
@@ -19,7 +19,7 @@ const AccountChoice = () => {
             メンバーを世話にする方はこちらへ
           </p>
         </button>
-        <button className="flex flex-col justify-around items-center w-1/2 h-4/5 bg-slate-300 p-2 mx-2">
+        <button className="flex flex-col justify-around items-center w-1/2 h-4/5 bg-slate-100 p-2 mx-2">
           <h1 className="text-3xl font-bold tracking-wider">Youths</h1>
           <img
             className="w-1/5"
